@@ -1,0 +1,5 @@
+#!/bin/bash -e
+
+for uri in http://ab-initio.mit.edu/Faddeeva.{cc,hh}; do
+    curl -O "$uri"
+done
